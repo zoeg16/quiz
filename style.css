@@ -1,12 +1,22 @@
 body{
     background-color: black;
+    text-align: center;
+    
 }
 
 h1{
     color:#f70505ff;
-    font-family:'Ca'
+    text-align: center;
 }
 
 p{
     color: white;
+    text-align: center;
+    border: 2px;
+    border-color: white;
+   
+}
+
+img{
+    border-style: solid;
 }
