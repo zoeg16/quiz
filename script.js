@@ -1,97 +1,80 @@
 console.log("hello");
 
-let c1o1 = document.querySelector('.c1o1');
-let c1o2 = document.querySelector('.c1o2');
-let c2o1 = document.querySelector('.c2o1');
-let c2o2 = document.querySelector('.c2o2');
-let c3o1 = document.querySelector('.c3o1');
-let c3o2 = document.querySelector('.c3o2');
-let q1
+let pink = document.querySelector('.pink');
+let blue= document.querySelector('.blue');
+let shopping = document.querySelector('.shopping');
+let sleeping = document.querySelector('.sleeping');
+let coffee = document.querySelector('.coffee');
+let water= document.querySelector('.water');
+let button= document.querySelector('button');
+let message= document.querySelector('.message');
 let q2
 let q3
 
-c1o1.addEventListener("click", function() {
-    q1=1
-    c1o1.style.border = "3px solid #white";
+let answer1;
+let answer2;
+let answer3;
+
+pink.addEventListener("click", function() {
+    pink.style.border = "3px solid white";
+    answer1 = "pink";
+    console.log(answer1);
 });
 
-c1o2.addEventListener("click", function(){
-    q1=2
-    c1o2.style.border = "3px solid #white";
+blue.addEventListener("click", function(){
+    blue.style.border = "3px solid white";
+    console.log(answer1);
+    answer1 = "blue";
 });
 
-c2o1.addEventListener("click", function(){
-    q2=1
-    c2o1.style.border = "3px solid #white";
+
+shopping.addEventListener("click", function(){
+    shopping.style.border = "3px solid white";
+    console.log(answer2);
+    answer2 = "shopping";
 });
 
-c2o2.addEventListener("click", function(){
-    q2=2
-    c2o2.style.border = "3px solid #white";
+sleeping.addEventListener("click", function(){
+    sleeping.style.border = "3px solid white";
+    console.log(answer2);
+    answer2 = "sleeping";
 });
 
-c3o1.addEventListener("click", function(){
-    q3=1
-    c3o1.stytle.border = "3px solid #white";
+coffee.addEventListener("click", function(){
+    coffee.style.border = "3px solid white";
+    console.log(answer3);
+    answer3 = "coffee";
 });
 
-c3o2.addEventListener("click", function(){
-    q3=2
-    c3o2.style.border = "3px solid #white";
+water.addEventListener("click", function(){
+    water.style.border = "3px solid white";
+    console.log(answer3); 
+    answer3 = "water";
 });
 
-button.addEventListener("click", function(){
-    let message = document.querySelector("click", function();
-    if ( answer1 === "pink" && answer2 === "shopping" && answer3 === "water"){
+ button.addEventListener("click", function(){
+console.log("work");
+
+
+ if ( answer1 === "pink" && answer2 === "shopping" && answer3 === "water"){
         message.innerHTML = " You Are Monica!";
-    } else if( answer1 === "pink" && answer2 === "shopping" && answer3 === "coffee"){
+        console.log("mon");
+ }
+
+ else if( answer1 === "pink" && answer2 === "shopping" && answer3 === "coffee"){
         message.innerHTML = "You Are Rachel!";
-    } else if( answer1 === "pink" && answer2 === "sleeping" && answer3 === "water"){
-        message.innerHTML =" You Are Pheobe";
-    } else if(answer1 === "blue" && answer2 ===  "shopping" && answer3 === "water"){
-        message.innerHTML =" You are Chandler";
-    } else if(answer1 === "blue" && answer2 ===  "sleeping" && answer3 === "coffee"){
-        message.innerHTML = "You are Ross";
-    } else if(answer1 === "blue" && answer2 === "sleeping" && answer3 ===  "water"){
-        message.innerHTML = "You are Joey";
+        console.log("rachel");
     }
-
+ else if( answer1 === "pink" && answer2 === "sleeping" && answer3 === "water"){
+        message.innerHTML =" You Are Pheobe!";
+ }
+ else if(answer1 === "blue" && answer2 ===  "shopping" && answer3 === "water"){
+       message.innerHTML =" You are Chandler";
+  }
+   else if(answer1 === "blue" && answer2 ===  "sleeping" && answer3 === "coffee"){
+        message.innerHTML = "You are Ross";
+        
+   } else if(answer1 === "blue" && answer2 === "sleeping" && answer3 ===  "water"){
+       message.innerHTML = "You are Joey";
+   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

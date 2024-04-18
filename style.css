@@ -1,22 +1,54 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(GABRWFFR.TTF);
+  }
+
+  .x{
+    width: 400px;
+display: block;
+    margin:0 auto; 
+}
+
+
 body{
-    background-color: black;
+    background-color: white;
     text-align: center;
-    
+} 
+
+.main{
+    width: 500px;
+    margin:0 auto;
+    border: 2px solid red;
+  
 }
 
 h1{
     color:#f70505ff;
-    text-align: center;
+   
+    font-family: myFirstFont;
+}
+
+h2{
+    color:#f70505ff; 
+    font-family: myFirstFont;
+    
 }
 
 p{
-    color: white;
-    text-align: center;
+    color: black;
+
     border: 2px;
     border-color: white;
+    font-family: myFirstFont;
    
 }
 
-img{
+.border{
     border-style: solid;
+    width:125px;
 }
+
+.pick{
+    display:flex;
+    justify-content: center;
+} */
